@@ -1,0 +1,105 @@
+@media (max-width:1200px){
+    .ideas h3 {
+        padding-top: 15px;
+    }
+}
+@media (max-width:992px){
+    .nav-left ul{
+        padding: 10px
+    }
+    .nav-left li a{
+        min-width: 10px;
+        padding: 5px 10px
+    }
+	.nav-left li:last-child{
+		margin: 0;
+	}
+    .nav-left li a img{
+        margin: 0;
+    }
+    .nav-left li a span{
+        display: none;
+    }
+    .main-content .top-navigation .button,
+    .main-content .top-navigation .nav{
+        width: 100%;
+    }
+    .ideas .circle{
+        flex-flow: wrap;
+    }
+    .navigation{
+        position: relative;
+        min-width: 70px;
+    }
+    .nav-left{
+        position: absolute;
+        left: 0;
+    }
+    .open{
+        display: block;
+    }
+    
+}
+@media (max-width:768px){
+    .main-content .shortdetails{
+        padding-top: 0px;
+    }
+    .main-content .top-navigation {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:660px){
+    .main-content .top-navigation{
+        flex-direction: column;
+    }
+    .main-content .top-navigation .nav{
+        justify-content: center;
+    }
+    .main-content .top-navigation .button a{
+        width: 100%;
+        text-align: center;
+    }
+    .main-content .top-navigation .nav{
+        width: 100%;
+    }
+    .body .navigation{
+        min-width: 50px;
+    }
+    .main-content .top-navigation .button{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:450px){
+    header .header .logo{
+        margin-bottom: 20px;
+    }
+    .main-content .nav  li a{
+        padding: 10px;
+    }
+    header .header .top-menu>ul>li {
+        padding: 0px 8px;
+    }
+    header .header .top-menu>ul>li:last-child{
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+    header .header .top-menu li:last-child::before{
+        display: none;
+    }
+    header .header .top-menu>ul>li:first-child .notification::before{
+        left: 5%;
+    }
+    .ideas .circle{
+        justify-content: center;
+    }              
+    .ideas .circle .single .text {
+        margin:10px 20px;
+    }
+    .buttons a{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
